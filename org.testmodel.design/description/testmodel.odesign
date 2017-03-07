@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="testmodel" version="11.1.1.201610211630">
+  <ownedViewpoints name="Testmodel" modelFileExtension="ecore">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Test" initialisation="true" domainClass="testmodel.Model" enablePopupBars="true">
+      <metamodel href="../../org.testmodel/model/testmodel.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="GroupNode" detailDescriptions="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@toolSections.2/@ownedTools[name='CreateGroupDiagram']" navigationDescriptions="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@toolSections.2/@ownedTools[name='NavigateToGroup']" domainClass="testmodel.Group">
+          <borderedNodeMappings name="ClassNodeInGroup" semanticCandidatesExpression="feature:elements" domainClass="testmodel.Class">
+            <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:CustomStyleDescription" labelPosition="node" resizeKind="NSEW" id="style1">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="ClassInGroupRelation" sourceMapping="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']" targetMapping="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']" targetFinderExpression="feature:eContainer">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="GroupInGroupRelation" sourceMapping="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']" targetMapping="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']" targetFinderExpression="feature:elements">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="ClassContainer" domainClass="testmodel.Class" childrenPresentation="List">
+          <subNodeMappings name="AttributInClassContainer" semanticCandidatesExpression="feature:eAllContents" domainClass="testmodel.Attribute">
+            <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.type.name" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Section">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create GroupNode" nodeMappings="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="testmodel.Group" referenceName="elements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Group X'"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create Class" containerMappings="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="testmodel.Class" referenceName="elements"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="create Attribute" nodeMappings="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="testmodel.Attribute" referenceName="attributes"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Section 2">
+          <ownedTools xsi:type="tool_1:ToolDescription" name="rename" elementsToSelect="var:self">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Experimental">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="LinkClassToGroup" edgeMappings="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='ClassInGroupRelation']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DiagramNavigationDescription" name="NavigateToGroup" diagramDescription="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']">
+            <containerViewVariable name="containerView"/>
+            <containerVariable name="container"/>
+            <representationNameVariable name="diagramName"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DiagramCreationDescription" name="CreateGroupDiagram" elementsToSelect="feature:elements" diagramDescription="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext">
+                <subModelOperations xsi:type="tool:CreateView" mapping="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']" containerViewExpression="var:self"/>
+              </firstModelOperations>
+            </initialOperation>
+            <containerViewVariable name="containerView"/>
+            <representationNameVariable name="diagramName"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:ToolDescription" name="Deactivate Features" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName=" deactivate" valueExpression="service:deactivate()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:ToolDescription" name="TestTool" precondition="service:isFeatureActive()" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:ToolDescription" name="Activate Features" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="activate" valueExpression="service:activate()"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Toplevel" titleExpression="aql:'Group '" initialisation="true" domainClass="testmodel.Model" enablePopupBars="true">
+      <metamodel href="../../org.testmodel/model/testmodel.ecore#/"/>
+      <defaultLayer name="Default2">
+        <edgeMappings name="Association" sourceMapping="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']" targetMapping="//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']" targetFinderExpression="feature:second" sourceFinderExpression="feature:first" domainClass="testmodel.Association" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <beginLabelStyleDescription labelExpression="feature:firstLabel">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </beginLabelStyleDescription>
+            <centerLabelStyleDescription labelExpression="feature:name">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+            <endLabelStyleDescription labelExpression="feature:secondLabel">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </endLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="GroupContainer" semanticCandidatesExpression="feature:elements" domainClass="testmodel.Group">
+          <subContainerMappings name="ClassContainer" semanticCandidatesExpression="feature:eAllContents" domainClass="testmodel.Class" childrenPresentation="List">
+            <subNodeMappings name="AttributInClassContainer" semanticCandidatesExpression="feature:eAllContents" domainClass="testmodel.Attribute">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.type.name" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.testmodel.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

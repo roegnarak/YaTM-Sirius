@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="testmodel.org/">
+  <elements xsi:type="Class" name="Test"/>
+  <elements xsi:type="Group" name="Group 3">
+    <elements xsi:type="Class" name="Class 1">
+      <attributes name="Attribute 1" type="//@elements.1/@elements.0"/>
+      <attributes name="Attribute 2" type="//@elements.0"/>
+      <attributes name="Attribute 3"/>
+    </elements>
+    <elements xsi:type="Class" name="Class 2">
+      <attributes name="SubAttrribute 1"/>
+      <attributes name="SubAttrribute 2"/>
+    </elements>
+    <elements xsi:type="Group" name="SubGroup1">
+      <elements xsi:type="Group" name="SubSubGroup1">
+        <elements xsi:type="Class" name="Class 3">
+          <attributes name="Attribute 31" type="//@elements.1/@elements.2/@elements.0/@elements.0"/>
+          <attributes name="Attribute 32" type="//@elements.0"/>
+          <attributes name="Attribute 33"/>
+        </elements>
+        <elements xsi:type="Class" name="Class X">
+          <attributes name="SubAttrribute 1121"/>
+          <attributes name="SubAttrribute 1122"/>
+        </elements>
+        <elements xsi:type="Group" name="SubGroup1121"/>
+      </elements>
+    </elements>
+  </elements>
+  <elements xsi:type="Group" name="Group 2"/>
+  <elements xsi:type="Group" name="Group X"/>
+  <elements xsi:type="Class" name="new Class 1">
+    <attributes name="new Attribute 1"/>
+  </elements>
+  <elements xsi:type="Association" name="Association1" firstLabel="Label1" secondLabel="Label2" first="//@elements.1/@elements.0" second="//@elements.1/@elements.1"/>
+</Model>

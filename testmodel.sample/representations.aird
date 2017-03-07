@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="testmodel.rosi.org/" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_wLXa8Nt8EeaAHtN1xiUBog" selectedViews="_PkYFMNt9EeaAHtN1xiUBog" version="11.1.0.201608251200">
+    <semanticResources>platform:/resource/org.testmodel/model/testmodel.genmodel</semanticResources>
+    <semanticResources>platform:/resource/org.testmodel/model/testmodel.ecore</semanticResources>
+    <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+    <semanticResources>My.testmodel</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_PkYFMNt9EeaAHtN1xiUBog">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_B4iQsNzEEeaKkYVLqACk9g" name="My new test" representation="_B4i3wNzEEeaKkYVLqACk9g">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']"/>
+        <target xmi:type="Model" href="My.testmodel#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_JzmOMPHKEeaoY8otYgFjng" name="Group 3 Diagram" representation="_J2ejEPHKEeaoY8otYgFjng">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+        <target xmi:type="Group" href="My.testmodel#//@elements.1"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_mmwQgPHKEeaoY8otYgFjng" name="SubSubGroup1 Diagram" representation="_moD4EPHKEeaoY8otYgFjng">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+        <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2/@elements.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_LCpl0PHLEeaoY8otYgFjng" name="Group Group 3" representation="_LFNxoPHLEeaoY8otYgFjng">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+        <target xmi:type="Group" href="My.testmodel#//@elements.1"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_NGj-UPHLEeaoY8otYgFjng" name="Group Group 3 2" representation="_NJeIYPHLEeaoY8otYgFjng">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+        <target xmi:type="Group" href="My.testmodel#//@elements.1"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_5g1OUPjwEea0x_0_65QrUA" name="Group 1" representation="_5g44sPjwEea0x_0_65QrUA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+        <target xmi:type="Model" href="My.testmodel#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_B4i3wNzEEeaKkYVLqACk9g" name="My new test">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_B4i3wdzEEeaKkYVLqACk9g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_B4i3wtzEEeaKkYVLqACk9g"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_B5sHQNzEEeaKkYVLqACk9g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_B5sHQdzEEeaKkYVLqACk9g" type="Sirius" element="_B4i3wNzEEeaKkYVLqACk9g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_ExSH0OZ6EeaeOuV1_wLthw" type="2003" element="_k39UoOvxEeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_ExT9AOZ6EeaeOuV1_wLthw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_ExT9AeZ6EeaeOuV1_wLthw" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ExUkEOZ6EeaeOuV1_wLthw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ExUkEeZ6EeaeOuV1_wLthw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ExSH0eZ6EeaeOuV1_wLthw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExSH0uZ6EeaeOuV1_wLthw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ExUkEuZ6EeaeOuV1_wLthw" type="2003" element="_k3_J0OvxEeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_ExVLIOZ6EeaeOuV1_wLthw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_ExVyMOZ6EeaeOuV1_wLthw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_k4nb8OvxEeaeOuV1_wLthw" type="3010" element="_k4ECUOvxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k4nb8evxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k4nb8uvxEeaeOuV1_wLthw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_k4oqEOvxEeaeOuV1_wLthw" type="3010" element="_k4FQcOvxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k4oqEevxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k4oqEuvxEeaeOuV1_wLthw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_k4pRIOvxEeaeOuV1_wLthw" type="3010" element="_k4F3gOvxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k4pRIevxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k4pRIuvxEeaeOuV1_wLthw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ExVyMeZ6EeaeOuV1_wLthw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ExVyMuZ6EeaeOuV1_wLthw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ExUkE-Z6EeaeOuV1_wLthw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExUkFOZ6EeaeOuV1_wLthw" x="599" y="525"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ExWZQOZ6EeaeOuV1_wLthw" type="2003" element="_k4AX8OvxEeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_ExYOcOZ6EeaeOuV1_wLthw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_ExY1gOZ6EeaeOuV1_wLthw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_k4qfQOvxEeaeOuV1_wLthw" type="3010" element="_k4GekOvxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k4qfQevxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k4qfQuvxEeaeOuV1_wLthw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_k4rGUOvxEeaeOuV1_wLthw" type="3010" element="_k4HFoevxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k4rGUevxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k4rGUuvxEeaeOuV1_wLthw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ExY1geZ6EeaeOuV1_wLthw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ExY1guZ6EeaeOuV1_wLthw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ExWZQeZ6EeaeOuV1_wLthw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExWZQuZ6EeaeOuV1_wLthw" x="425" y="525"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_u6w1kOZ7EeaeOuV1_wLthw" type="2001" element="_u6o5wOZ7EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_u6yDsOZ7EeaeOuV1_wLthw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_u6yDseZ7EeaeOuV1_wLthw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ke3WYOoIEeaeOuV1_wLthw" type="3001" element="_keimQOoIEeaeOuV1_wLthw">
+            <children xmi:type="notation:Node" xmi:id="_ke39cOoIEeaeOuV1_wLthw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ke39ceoIEeaeOuV1_wLthw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ke-EEOoIEeaeOuV1_wLthw" type="3003" element="_keimQeoIEeaeOuV1_wLthw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ke-EEeoIEeaeOuV1_wLthw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ke-EEuoIEeaeOuV1_wLthw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ke3WYeoIEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ke3WYuoIEeaeOuV1_wLthw" y="-22" width="128" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ke4kgOoIEeaeOuV1_wLthw" type="3001" element="_kej0YOoIEeaeOuV1_wLthw">
+            <children xmi:type="notation:Node" xmi:id="_ke5LkOoIEeaeOuV1_wLthw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ke5LkeoIEeaeOuV1_wLthw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ke_5QOoIEeaeOuV1_wLthw" type="3003" element="_kej0YeoIEeaeOuV1_wLthw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ke_5QeoIEeaeOuV1_wLthw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ke_5QuoIEeaeOuV1_wLthw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ke4kgeoIEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ke4kguoIEeaeOuV1_wLthw" x="100" y="78" width="91" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MpAKgPHJEeaoY8otYgFjng" type="3014" element="_MlHJAPHJEeaoY8otYgFjng">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_MpAKgfHJEeaoY8otYgFjng" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MpAKgvHJEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_u6w1keZ7EeaeOuV1_wLthw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u6w1kuZ7EeaeOuV1_wLthw" x="480" y="365" width="191" height="86"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_u6yqwOZ7EeaeOuV1_wLthw" type="2001" element="_u6o5weZ7EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_u6zR0OZ7EeaeOuV1_wLthw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_u6zR0eZ7EeaeOuV1_wLthw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MpMXwPHJEeaoY8otYgFjng" type="3014" element="_MlLacPHJEeaoY8otYgFjng">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_MpMXwfHJEeaoY8otYgFjng" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MpMXwvHJEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_u6yqweZ7EeaeOuV1_wLthw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u6yqwuZ7EeaeOuV1_wLthw" x="100" width="111" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Et3gEOZ9EeaeOuV1_wLthw" type="2001" element="_EttvEOZ9EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_Et4HIOZ9EeaeOuV1_wLthw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Et4HIeZ9EeaeOuV1_wLthw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MpNl4PHJEeaoY8otYgFjng" type="3014" element="_MlJlQPHJEeaoY8otYgFjng">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_MpNl4fHJEeaoY8otYgFjng" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MpNl4vHJEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Et3gEeZ9EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Et3gEuZ9EeaeOuV1_wLthw" x="425" y="220" width="131" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_gb7ikOZ9EeaeOuV1_wLthw" type="2001" element="_gbjvIOZ9EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_gb8wsOZ9EeaeOuV1_wLthw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_gb8wseZ9EeaeOuV1_wLthw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kfAgUOoIEeaeOuV1_wLthw" type="3001" element="_kelCgOoIEeaeOuV1_wLthw">
+            <children xmi:type="notation:Node" xmi:id="_kfBHYOoIEeaeOuV1_wLthw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_kfBHYeoIEeaeOuV1_wLthw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_kfC8kOoIEeaeOuV1_wLthw" type="3003" element="_kelCgeoIEeaeOuV1_wLthw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_kfC8keoIEeaeOuV1_wLthw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kfC8kuoIEeaeOuV1_wLthw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_kfAgUeoIEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kfAgUuoIEeaeOuV1_wLthw" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kfBHYuoIEeaeOuV1_wLthw" type="3001" element="_kelpkOoIEeaeOuV1_wLthw">
+            <children xmi:type="notation:Node" xmi:id="_kfBucOoIEeaeOuV1_wLthw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_kfBuceoIEeaeOuV1_wLthw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_kfC8k-oIEeaeOuV1_wLthw" type="3003" element="_kelpkeoIEeaeOuV1_wLthw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_kfC8lOoIEeaeOuV1_wLthw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kfC8leoIEeaeOuV1_wLthw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_kfBHY-oIEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kfBHZOoIEeaeOuV1_wLthw" x="9" y="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MpOM8PHJEeaoY8otYgFjng" type="3014" element="_MlKMUPHJEeaoY8otYgFjng">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_MpOM8fHJEeaoY8otYgFjng" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MpOM8vHJEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_gb7ikeZ9EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gb7ikuZ9EeaeOuV1_wLthw" x="775" y="85" width="145" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_gb8wsuZ9EeaeOuV1_wLthw" type="2001" element="_gbkWMOZ9EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_gb9XwOZ9EeaeOuV1_wLthw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_gb9XweZ9EeaeOuV1_wLthw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MpPbEPHJEeaoY8otYgFjng" type="3014" element="_MlKzYPHJEeaoY8otYgFjng">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_MpPbEfHJEeaoY8otYgFjng" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MpPbEvHJEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_gb8ws-Z9EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gb8wtOZ9EeaeOuV1_wLthw" x="790" y="-5" width="111" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_gb9-0OZ9EeaeOuV1_wLthw" type="2003" element="_k4BmEOvxEeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_gcBCIOZ9EeaeOuV1_wLthw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_gcBpMOZ9EeaeOuV1_wLthw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_k48zIOvxEeaeOuV1_wLthw" type="3010" element="_k4ITwOvxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k48zIevxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k48zIuvxEeaeOuV1_wLthw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_k49aMOvxEeaeOuV1_wLthw" type="3010" element="_k4ITwuvxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k49aMevxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k49aMuvxEeaeOuV1_wLthw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_k4-oUOvxEeaeOuV1_wLthw" type="3010" element="_k4I60evxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k4-oUevxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k4-oUuvxEeaeOuV1_wLthw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_gcBpMeZ9EeaeOuV1_wLthw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_gcBpMuZ9EeaeOuV1_wLthw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_gb9-0eZ9EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gb9-0uZ9EeaeOuV1_wLthw" x="775" y="220"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_gcBpM-Z9EeaeOuV1_wLthw" type="2003" element="_k4CNIOvxEeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_gcCQQOZ9EeaeOuV1_wLthw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_gcC3UOZ9EeaeOuV1_wLthw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_k4_PYOvxEeaeOuV1_wLthw" type="3010" element="_k4KI8OvxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k4_PYevxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k4_PYuvxEeaeOuV1_wLthw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_k4_2cOvxEeaeOuV1_wLthw" type="3010" element="_k4KwAOvxEeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_k4_2cevxEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k4_2cuvxEeaeOuV1_wLthw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_gcC3UeZ9EeaeOuV1_wLthw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_gcC3UuZ9EeaeOuV1_wLthw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_gcBpNOZ9EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcBpNeZ9EeaeOuV1_wLthw" x="970" y="220"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_L1zycOoHEeaeOuV1_wLthw" type="2001" element="_L1aJ0OoHEeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_L11AkOoHEeaeOuV1_wLthw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_L11AkeoHEeaeOuV1_wLthw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MpRQQPHJEeaoY8otYgFjng" type="3014" element="_MlLacfHJEeaoY8otYgFjng">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_MpRQQfHJEeaoY8otYgFjng" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MpRQQvHJEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_L1zyceoHEeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L1zycuoHEeaeOuV1_wLthw" x="275" width="91" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9GTLIOv1EeaeOuV1_wLthw" type="2003" element="_9F-bAOv1EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_9GTyMOv1EeaeOuV1_wLthw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_9GTyMev1EeaeOuV1_wLthw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_YhmpsOv2EeaeOuV1_wLthw" type="3010" element="_YhR5kOv2EeaeOuV1_wLthw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Yhmpsev2EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Yhmpsuv2EeaeOuV1_wLthw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_9GTyMuv1EeaeOuV1_wLthw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_9GTyM-v1EeaeOuV1_wLthw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_9GTLIev1EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9GTLIuv1EeaeOuV1_wLthw" x="585" y="145" width="158"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_B5sHQtzEEeaKkYVLqACk9g"/>
+        <edges xmi:type="notation:Edge" xmi:id="_ZWcjEOZ8EeaeOuV1_wLthw" type="4001" element="_ZWIaAOZ8EeaeOuV1_wLthw" source="_ExUkEuZ6EeaeOuV1_wLthw" target="_u6w1kOZ7EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_ZWhbkOZ8EeaeOuV1_wLthw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZWhbkeZ8EeaeOuV1_wLthw" x="-7" y="12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZWke4OZ8EeaeOuV1_wLthw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZWke4eZ8EeaeOuV1_wLthw" x="12" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZWniMOZ8EeaeOuV1_wLthw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZWniMeZ8EeaeOuV1_wLthw" x="7" y="-6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZWcjEeZ8EeaeOuV1_wLthw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ZWcjEuZ8EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZWcjE-Z8EeaeOuV1_wLthw" points="[0, 0, 93, 104]$[-93, -104, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZW52EOZ8EeaeOuV1_wLthw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZW52EeZ8EeaeOuV1_wLthw" id="(0.4973821989528796,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ZXUFwOZ8EeaeOuV1_wLthw" type="4001" element="_ZWN5kOZ8EeaeOuV1_wLthw" source="_ExWZQOZ6EeaeOuV1_wLthw" target="_u6w1kOZ7EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_ZXV68OZ8EeaeOuV1_wLthw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZXV68eZ8EeaeOuV1_wLthw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZXV68uZ8EeaeOuV1_wLthw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZXV68-Z8EeaeOuV1_wLthw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZXV69OZ8EeaeOuV1_wLthw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZXV69eZ8EeaeOuV1_wLthw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZXUFweZ8EeaeOuV1_wLthw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ZXUFwuZ8EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZXUFw-Z8EeaeOuV1_wLthw" points="[0, 0, -92, 104]$[92, -104, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZXazcOZ8EeaeOuV1_wLthw" id="(0.4957983193277311,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZXazceZ8EeaeOuV1_wLthw" id="(0.4973821989528796,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_gcT9EOZ9EeaeOuV1_wLthw" type="4001" element="_gbwjcOZ9EeaeOuV1_wLthw" source="_gb9-0OZ9EeaeOuV1_wLthw" target="_gb7ikOZ9EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_gcVyQOZ9EeaeOuV1_wLthw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcVyQeZ9EeaeOuV1_wLthw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gcWZUOZ9EeaeOuV1_wLthw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcWZUeZ9EeaeOuV1_wLthw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gcWZUuZ9EeaeOuV1_wLthw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcWZU-Z9EeaeOuV1_wLthw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_gcT9EeZ9EeaeOuV1_wLthw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_gcT9EuZ9EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gcT9E-Z9EeaeOuV1_wLthw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gce8MOZ9EeaeOuV1_wLthw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gcgKUOZ9EeaeOuV1_wLthw" id="(0.496551724137931,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_gcgKUeZ9EeaeOuV1_wLthw" type="4001" element="_gbxxkOZ9EeaeOuV1_wLthw" source="_gcBpM-Z9EeaeOuV1_wLthw" target="_gb7ikOZ9EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_gchYcOZ9EeaeOuV1_wLthw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gchYceZ9EeaeOuV1_wLthw" x="161" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gchYcuZ9EeaeOuV1_wLthw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gchYc-Z9EeaeOuV1_wLthw" x="-142" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gcj0sOZ9EeaeOuV1_wLthw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcj0seZ9EeaeOuV1_wLthw" x="-165" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_gcgKUuZ9EeaeOuV1_wLthw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_gcgKU-Z9EeaeOuV1_wLthw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gcgKVOZ9EeaeOuV1_wLthw" points="[0, 0, 196, 60]$[-196, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gclC0OZ9EeaeOuV1_wLthw" id="(0.49635036496350365,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gclC0eZ9EeaeOuV1_wLthw" id="(0.496551724137931,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Mp2fEPHJEeaoY8otYgFjng" type="4001" element="_MoBTEPHJEeaoY8otYgFjng" source="_u6w1kOZ7EeaeOuV1_wLthw" target="_Et3gEOZ9EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_MqCFQPHJEeaoY8otYgFjng" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqCFQfHJEeaoY8otYgFjng" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MqD6cPHJEeaoY8otYgFjng" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqD6cfHJEeaoY8otYgFjng" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MqIy8PHJEeaoY8otYgFjng" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqIy8fHJEeaoY8otYgFjng" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Mp2fEfHJEeaoY8otYgFjng"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Mp2fEvHJEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Mp2fE_HJEeaoY8otYgFjng" points="[0, 0, 0, 104]$[0, -104, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MqibkPHJEeaoY8otYgFjng" id="(0.4973821989528796,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MqibkfHJEeaoY8otYgFjng" id="(0.4961832061068702,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_MqjCoPHJEeaoY8otYgFjng" type="4001" element="_MoDvUPHJEeaoY8otYgFjng" source="_Et3gEOZ9EeaeOuV1_wLthw" target="_gb7ikOZ9EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_MqjpsPHJEeaoY8otYgFjng" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqjpsfHJEeaoY8otYgFjng" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MqjpsvHJEeaoY8otYgFjng" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mqjps_HJEeaoY8otYgFjng" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MqjptPHJEeaoY8otYgFjng" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqjptfHJEeaoY8otYgFjng" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_MqjCofHJEeaoY8otYgFjng"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_MqjCovHJEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MqjCo_HJEeaoY8otYgFjng" points="[0, 0, -194, 60]$[194, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mqle4PHJEeaoY8otYgFjng" id="(0.4961832061068702,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mqle4fHJEeaoY8otYgFjng" id="(0.496551724137931,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Mqle4vHJEeaoY8otYgFjng" type="4001" element="_MoE9cPHJEeaoY8otYgFjng" source="_gb7ikOZ9EeaeOuV1_wLthw" target="_gb8wsuZ9EeaeOuV1_wLthw">
+          <children xmi:type="notation:Node" xmi:id="_MqmF8PHJEeaoY8otYgFjng" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqmF8fHJEeaoY8otYgFjng" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MqmtAPHJEeaoY8otYgFjng" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqmtAfHJEeaoY8otYgFjng" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MqmtAvHJEeaoY8otYgFjng" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqmtA_HJEeaoY8otYgFjng" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Mqle4_HJEeaoY8otYgFjng"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Mqle5PHJEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Mqle5fHJEeaoY8otYgFjng" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MqnUEPHJEeaoY8otYgFjng" id="(0.496551724137931,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MqnUEfHJEeaoY8otYgFjng" id="(0.4954954954954955,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_u6o5wOZ7EeaeOuV1_wLthw" name="Group 3" outgoingEdges="_MoBTEPHJEeaoY8otYgFjng" incomingEdges="_ZWIaAOZ8EeaeOuV1_wLthw _ZWN5kOZ8EeaeOuV1_wLthw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_keimQOoIEeaeOuV1_wLthw" name="Class 1" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.0"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_keimQeoIEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@borderedNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@borderedNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_kej0YOoIEeaeOuV1_wLthw" name="Class 2" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.1"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_kej0YeoIEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@borderedNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@borderedNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_MlHJAPHJEeaoY8otYgFjng" labelPosition="node" id="style1">
+        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EttvEOZ9EeaeOuV1_wLthw" name="SubGroup1" outgoingEdges="_MoDvUPHJEeaoY8otYgFjng" incomingEdges="_MoBTEPHJEeaoY8otYgFjng" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2"/>
+      <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_MlJlQPHJEeaoY8otYgFjng" labelPosition="node" id="style1">
+        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_gbjvIOZ9EeaeOuV1_wLthw" name="SubSubGroup1" outgoingEdges="_MoE9cPHJEeaoY8otYgFjng" incomingEdges="_gbwjcOZ9EeaeOuV1_wLthw _gbxxkOZ9EeaeOuV1_wLthw _MoDvUPHJEeaoY8otYgFjng" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2/@elements.0"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2/@elements.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_kelCgOoIEeaeOuV1_wLthw" name="Class 3" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_kelCgeoIEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@borderedNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@borderedNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_kelpkOoIEeaeOuV1_wLthw" name="Class X" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_kelpkeoIEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@borderedNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@borderedNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_MlKMUPHJEeaoY8otYgFjng" labelPosition="node" id="style1">
+        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_gbkWMOZ9EeaeOuV1_wLthw" name="SubGroup1121" incomingEdges="_MoE9cPHJEeaoY8otYgFjng" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.2"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.2"/>
+      <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_MlKzYPHJEeaoY8otYgFjng" labelPosition="node" id="style1">
+        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_u6o5weZ7EeaeOuV1_wLthw" name="Group 2" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Group" href="My.testmodel#//@elements.2"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.2"/>
+      <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_MlLacPHJEeaoY8otYgFjng" labelPosition="node" id="style1">
+        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_L1aJ0OoHEeaeOuV1_wLthw" name="Group X" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Group" href="My.testmodel#//@elements.3"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.3"/>
+      <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_MlLacfHJEeaoY8otYgFjng" labelPosition="node" id="style1">
+        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@nodeMappings[name='GroupNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ZWIaAOZ8EeaeOuV1_wLthw" sourceNode="_k3_J0OvxEeaeOuV1_wLthw" targetNode="_u6o5wOZ7EeaeOuV1_wLthw">
+      <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZWLdUOZ8EeaeOuV1_wLthw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='ClassInGroupRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZWLdUeZ8EeaeOuV1_wLthw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='ClassInGroupRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ZWN5kOZ8EeaeOuV1_wLthw" sourceNode="_k4AX8OvxEeaeOuV1_wLthw" targetNode="_u6o5wOZ7EeaeOuV1_wLthw">
+      <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZWOgoOZ8EeaeOuV1_wLthw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='ClassInGroupRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZWOgoeZ8EeaeOuV1_wLthw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='ClassInGroupRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_gbwjcOZ9EeaeOuV1_wLthw" sourceNode="_k4BmEOvxEeaeOuV1_wLthw" targetNode="_gbjvIOZ9EeaeOuV1_wLthw">
+      <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_gbxKgOZ9EeaeOuV1_wLthw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='ClassInGroupRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_gbxKgeZ9EeaeOuV1_wLthw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='ClassInGroupRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_gbxxkOZ9EeaeOuV1_wLthw" sourceNode="_k4CNIOvxEeaeOuV1_wLthw" targetNode="_gbjvIOZ9EeaeOuV1_wLthw">
+      <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_gbxxkeZ9EeaeOuV1_wLthw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='ClassInGroupRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_gbxxkuZ9EeaeOuV1_wLthw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='ClassInGroupRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_k39UoOvxEeaeOuV1_wLthw" name="Test">
+      <target xmi:type="Class" href="My.testmodel#//@elements.0"/>
+      <semanticElements xmi:type="Class" href="My.testmodel#//@elements.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_k397sOvxEeaeOuV1_wLthw" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_k3_J0OvxEeaeOuV1_wLthw" name="Class 1" outgoingEdges="_ZWIaAOZ8EeaeOuV1_wLthw">
+      <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.0"/>
+      <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_k3_J0evxEeaeOuV1_wLthw" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4ECUOvxEeaeOuV1_wLthw" name="Attribute 1 : Class 1">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.0"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4ECUevxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4FQcOvxEeaeOuV1_wLthw" name="Attribute 2 : Test">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.1"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4FQcevxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4F3gOvxEeaeOuV1_wLthw" name="Attribute 3 : ">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.2"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4F3gevxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_k4AX8OvxEeaeOuV1_wLthw" name="Class 2" outgoingEdges="_ZWN5kOZ8EeaeOuV1_wLthw">
+      <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.1"/>
+      <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_k4AX8evxEeaeOuV1_wLthw" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4GekOvxEeaeOuV1_wLthw" name="SubAttrribute 1 : ">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.1/@attributes.0"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.1/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4HFoOvxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4HFoevxEeaeOuV1_wLthw" name="SubAttrribute 2 : ">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.1/@attributes.1"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.1/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4HssOvxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_k4BmEOvxEeaeOuV1_wLthw" name="Class 3" outgoingEdges="_gbwjcOZ9EeaeOuV1_wLthw">
+      <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+      <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_k4BmEevxEeaeOuV1_wLthw" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4ITwOvxEeaeOuV1_wLthw" name="Attribute 31 : Class 3">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.0"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4ITwevxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4ITwuvxEeaeOuV1_wLthw" name="Attribute 32 : Test">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.1"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4I60OvxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4I60evxEeaeOuV1_wLthw" name="Attribute 33 : ">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.2"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4I60uvxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_k4CNIOvxEeaeOuV1_wLthw" name="Class X" outgoingEdges="_gbxxkOZ9EeaeOuV1_wLthw">
+      <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+      <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_k4CNIevxEeaeOuV1_wLthw" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4KI8OvxEeaeOuV1_wLthw" name="SubAttrribute 1121 : ">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1/@attributes.0"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4KI8evxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_k4KwAOvxEeaeOuV1_wLthw" name="SubAttrribute 1122 : ">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1/@attributes.1"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_k4KwAevxEeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_9F-bAOv1EeaeOuV1_wLthw" name="new Class 1">
+      <target xmi:type="Class" href="My.testmodel#//@elements.4"/>
+      <semanticElements xmi:type="Class" href="My.testmodel#//@elements.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_9F_CEOv1EeaeOuV1_wLthw" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_YhR5kOv2EeaeOuV1_wLthw" name="new Attribute 1 : ">
+        <target xmi:type="Attribute" href="My.testmodel#//@elements.4/@attributes.0"/>
+        <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.4/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_YhSgoOv2EeaeOuV1_wLthw" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@containerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_MoBTEPHJEeaoY8otYgFjng" sourceNode="_u6o5wOZ7EeaeOuV1_wLthw" targetNode="_EttvEOZ9EeaeOuV1_wLthw">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_MoChMPHJEeaoY8otYgFjng" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='GroupInGroupRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_MoChMfHJEeaoY8otYgFjng"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='GroupInGroupRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_MoDvUPHJEeaoY8otYgFjng" sourceNode="_EttvEOZ9EeaeOuV1_wLthw" targetNode="_gbjvIOZ9EeaeOuV1_wLthw">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_MoEWYPHJEeaoY8otYgFjng" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='GroupInGroupRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_MoEWYfHJEeaoY8otYgFjng"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='GroupInGroupRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_MoE9cPHJEeaoY8otYgFjng" sourceNode="_gbjvIOZ9EeaeOuV1_wLthw" targetNode="_gbkWMOZ9EeaeOuV1_wLthw">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2/@elements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_MoE9cfHJEeaoY8otYgFjng" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='GroupInGroupRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_MoE9cvHJEeaoY8otYgFjng"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer/@edgeMappings[name='GroupInGroupRelation']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_B4i3w9zEEeaKkYVLqACk9g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Test']/@defaultLayer"/>
+    <target xmi:type="Model" href="My.testmodel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_J2ejEPHKEeaoY8otYgFjng" name="Group 3 Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_J2fKIPHKEeaoY8otYgFjng" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_J2fKIfHKEeaoY8otYgFjng"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_J2vo0PHKEeaoY8otYgFjng" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_J2vo0fHKEeaoY8otYgFjng" type="Sirius" element="_J2ejEPHKEeaoY8otYgFjng" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_J2xeAPHKEeaoY8otYgFjng" type="2002" element="_J2fKIvHKEeaoY8otYgFjng">
+          <children xmi:type="notation:Node" xmi:id="_J20hUPHKEeaoY8otYgFjng" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_J21vcPHKEeaoY8otYgFjng" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_J24LsPHKEeaoY8otYgFjng" type="3007" element="_J2fKJPHKEeaoY8otYgFjng">
+              <children xmi:type="notation:Node" xmi:id="_J26n8PHKEeaoY8otYgFjng" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_J4k00fHKEeaoY8otYgFjng" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_J3AHgPHKEeaoY8otYgFjng" type="3003" element="_J2fKJfHKEeaoY8otYgFjng">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_J3AHgfHKEeaoY8otYgFjng" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J3AHgvHKEeaoY8otYgFjng"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_J24LsfHKEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J4k00PHKEeaoY8otYgFjng" x="30" y="30" width="100" height="100"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_J29EMPHKEeaoY8otYgFjng" type="3007" element="_J2fKJvHKEeaoY8otYgFjng">
+              <children xmi:type="notation:Node" xmi:id="_J2-SUPHKEeaoY8otYgFjng" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_J4lb4fHKEeaoY8otYgFjng" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_J3AukPHKEeaoY8otYgFjng" type="3003" element="_J2fKJ_HKEeaoY8otYgFjng">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_J3AukfHKEeaoY8otYgFjng" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J3AukvHKEeaoY8otYgFjng"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_J29EMfHKEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J4lb4PHKEeaoY8otYgFjng" x="160" y="30" width="100" height="100"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_J21vcfHKEeaoY8otYgFjng"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_J21vcvHKEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_J2xeAfHKEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J2xeAvHKEeaoY8otYgFjng"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_J2vo0vHKEeaoY8otYgFjng"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_J2fKIvHKEeaoY8otYgFjng" name="SubGroup1">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_J2fKI_HKEeaoY8otYgFjng" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_J2fKJPHKEeaoY8otYgFjng" name="Class 3" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_J2fKJfHKEeaoY8otYgFjng" labelPosition="node" width="10" height="10" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_J2fKJvHKEeaoY8otYgFjng" name="Class X" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_J2fKJ_HKEeaoY8otYgFjng" labelPosition="node" width="10" height="10" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_J2fKKPHKEeaoY8otYgFjng"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer"/>
+    <target xmi:type="Group" href="My.testmodel#//@elements.1"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_moD4EPHKEeaoY8otYgFjng" name="SubSubGroup1 Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_moD4EfHKEeaoY8otYgFjng" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_moD4EvHKEeaoY8otYgFjng"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_moEfIPHKEeaoY8otYgFjng" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_moEfIfHKEeaoY8otYgFjng" type="Sirius" element="_moD4EPHKEeaoY8otYgFjng" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_moFGMPHKEeaoY8otYgFjng" type="2002" element="_moD4E_HKEeaoY8otYgFjng">
+          <children xmi:type="notation:Node" xmi:id="_moGUUPHKEeaoY8otYgFjng" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_moGUUfHKEeaoY8otYgFjng" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_moGUUvHKEeaoY8otYgFjng"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_moGUU_HKEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_moFGMfHKEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_moFGMvHKEeaoY8otYgFjng"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_moEfIvHKEeaoY8otYgFjng"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_moD4E_HKEeaoY8otYgFjng" name="SubGroup1121">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.2"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_moD4FPHKEeaoY8otYgFjng" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_moD4FfHKEeaoY8otYgFjng"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer"/>
+    <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2/@elements.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_LFNxoPHLEeaoY8otYgFjng" name="Group Group 3">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_LFNxofHLEeaoY8otYgFjng" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_LFNxovHLEeaoY8otYgFjng"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_LFOYsPHLEeaoY8otYgFjng" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_LFOYsfHLEeaoY8otYgFjng" type="Sirius" element="_LFNxoPHLEeaoY8otYgFjng" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_LFO_wPHLEeaoY8otYgFjng" type="2002" element="_LFNxo_HLEeaoY8otYgFjng">
+          <children xmi:type="notation:Node" xmi:id="_LFPm0PHLEeaoY8otYgFjng" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_LFQ08PHLEeaoY8otYgFjng" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_LFRcAPHLEeaoY8otYgFjng" type="3007" element="_LFNxpfHLEeaoY8otYgFjng">
+              <children xmi:type="notation:Node" xmi:id="_LFSDEPHLEeaoY8otYgFjng" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_LGAb0fHLEeaoY8otYgFjng" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_LFTRMvHLEeaoY8otYgFjng" type="3003" element="_LFNxpvHLEeaoY8otYgFjng">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_LFTRM_HLEeaoY8otYgFjng" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFT4QPHLEeaoY8otYgFjng"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_LFRcAfHLEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGAb0PHLEeaoY8otYgFjng" x="30" y="30" width="500" height="500"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LFSqIPHLEeaoY8otYgFjng" type="3007" element="_LFNxp_HLEeaoY8otYgFjng">
+              <children xmi:type="notation:Node" xmi:id="_LFTRMPHLEeaoY8otYgFjng" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_LGBC4fHLEeaoY8otYgFjng" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_LFUfUPHLEeaoY8otYgFjng" type="3003" element="_LFNxqPHLEeaoY8otYgFjng">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_LFUfUfHLEeaoY8otYgFjng" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFUfUvHLEeaoY8otYgFjng"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_LFSqIfHLEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGBC4PHLEeaoY8otYgFjng" x="90" y="30" width="500" height="500"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LFQ08fHLEeaoY8otYgFjng"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LFQ08vHLEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LFO_wfHLEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFO_wvHLEeaoY8otYgFjng"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_LFOYsvHLEeaoY8otYgFjng"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_LFNxo_HLEeaoY8otYgFjng" name="SubGroup1">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_LFNxpPHLEeaoY8otYgFjng" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_LFNxpfHLEeaoY8otYgFjng" name="Class 3" width="50" height="50" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_LFNxpvHLEeaoY8otYgFjng" labelPosition="node" width="50" height="50" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_LFNxp_HLEeaoY8otYgFjng" name="Class X" width="50" height="50" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_LFNxqPHLEeaoY8otYgFjng" labelPosition="node" width="50" height="50" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_LFNxqfHLEeaoY8otYgFjng"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer"/>
+    <target xmi:type="Group" href="My.testmodel#//@elements.1"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_NJeIYPHLEeaoY8otYgFjng" name="Group Group 3 2">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_NJeIYfHLEeaoY8otYgFjng" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_NJeIYvHLEeaoY8otYgFjng"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_NJevcPHLEeaoY8otYgFjng" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_NJevcfHLEeaoY8otYgFjng" type="Sirius" element="_NJeIYPHLEeaoY8otYgFjng" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_NJevc_HLEeaoY8otYgFjng" type="2002" element="_NJeIY_HLEeaoY8otYgFjng">
+          <children xmi:type="notation:Node" xmi:id="_NJgkoPHLEeaoY8otYgFjng" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_NJgkofHLEeaoY8otYgFjng" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_NJhLsPHLEeaoY8otYgFjng" type="3007" element="_NJeIZfHLEeaoY8otYgFjng">
+              <children xmi:type="notation:Node" xmi:id="_NJiZ0PHLEeaoY8otYgFjng" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_NKIPsfHLEeaoY8otYgFjng" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_NJk2EPHLEeaoY8otYgFjng" type="3003" element="_NJeIZvHLEeaoY8otYgFjng">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_NJk2EfHLEeaoY8otYgFjng" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NJk2EvHLEeaoY8otYgFjng"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NJhLsfHLEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NKIPsPHLEeaoY8otYgFjng" x="30" y="29" width="30" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_NJjA4PHLEeaoY8otYgFjng" type="3007" element="_NJeIZ_HLEeaoY8otYgFjng">
+              <children xmi:type="notation:Node" xmi:id="_NJkPAPHLEeaoY8otYgFjng" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_NKI2wPHLEeaoY8otYgFjng" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_NJldIPHLEeaoY8otYgFjng" type="3003" element="_NJeIaPHLEeaoY8otYgFjng">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_NJldIfHLEeaoY8otYgFjng" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NJldIvHLEeaoY8otYgFjng"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NJjA4fHLEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NKIPsvHLEeaoY8otYgFjng" x="90" y="29" width="30" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_NJgkovHLEeaoY8otYgFjng"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_NJgko_HLEeaoY8otYgFjng"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_NJevdPHLEeaoY8otYgFjng" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NJevdfHLEeaoY8otYgFjng"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_NJevcvHLEeaoY8otYgFjng"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_NJeIY_HLEeaoY8otYgFjng" name="SubGroup1">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.1/@elements.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_NJeIZPHLEeaoY8otYgFjng" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NJeIZfHLEeaoY8otYgFjng" name="Class 3" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_NJeIZvHLEeaoY8otYgFjng" labelPosition="node" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NJeIZ_HLEeaoY8otYgFjng" name="Class X" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_NJeIaPHLEeaoY8otYgFjng" labelPosition="node" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subNodeMappings[name='ClassNodeInGroup']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_NJeIafHLEeaoY8otYgFjng"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer"/>
+    <target xmi:type="Group" href="My.testmodel#//@elements.1"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_5g44sPjwEea0x_0_65QrUA" name="Group 1">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_5g44sfjwEea0x_0_65QrUA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_5g44svjwEea0x_0_65QrUA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_5h5lUPjwEea0x_0_65QrUA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_5h5lUfjwEea0x_0_65QrUA" type="Sirius" element="_5g44sPjwEea0x_0_65QrUA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_5iGZoPjwEea0x_0_65QrUA" type="2002" element="_5g44s_jwEea0x_0_65QrUA">
+          <children xmi:type="notation:Node" xmi:id="_5iZ7oPjwEea0x_0_65QrUA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_5icX4PjwEea0x_0_65QrUA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_B2mmcPjxEea0x_0_65QrUA" type="3009" element="_SLKaEPjxEea0x_0_65QrUA">
+              <children xmi:type="notation:Node" xmi:id="_B2nNgPjxEea0x_0_65QrUA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_B2t7MPjxEea0x_0_65QrUA" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_SMi6IPjxEea0x_0_65QrUA" type="3010" element="_SLbf0PjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMi6IfjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMi6IvjxEea0x_0_65QrUA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_SMkvUPjxEea0x_0_65QrUA" type="3010" element="_SLct8PjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMkvUfjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMkvUvjxEea0x_0_65QrUA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_SMl9cPjxEea0x_0_65QrUA" type="3010" element="_SLd8EPjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMl9cfjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMl9cvjxEea0x_0_65QrUA"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_B2t7MfjxEea0x_0_65QrUA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_B2t7MvjxEea0x_0_65QrUA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_B2mmcfjxEea0x_0_65QrUA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B2mmcvjxEea0x_0_65QrUA" x="30" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_B2uiQPjxEea0x_0_65QrUA" type="3009" element="_SLUyIPjxEea0x_0_65QrUA">
+              <children xmi:type="notation:Node" xmi:id="_B2vwYPjxEea0x_0_65QrUA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_B2vwYfjxEea0x_0_65QrUA" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_SMmkgPjxEea0x_0_65QrUA" type="3010" element="_SLgYUPjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMmkgfjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMmkgvjxEea0x_0_65QrUA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_SMnyoPjxEea0x_0_65QrUA" type="3010" element="_SLiNgPjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMnyofjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMnyovjxEea0x_0_65QrUA"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_B2vwYvjxEea0x_0_65QrUA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_B2vwY_jxEea0x_0_65QrUA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_B2uiQfjxEea0x_0_65QrUA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B2uiQvjxEea0x_0_65QrUA" x="188" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_B2wXcPjxEea0x_0_65QrUA" type="3009" element="_SLWAQPjxEea0x_0_65QrUA">
+              <children xmi:type="notation:Node" xmi:id="_B2xlkPjxEea0x_0_65QrUA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_B2yMoPjxEea0x_0_65QrUA" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_SMpn0PjxEea0x_0_65QrUA" type="3010" element="_SLkCsPjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMpn0fjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMpn0vjxEea0x_0_65QrUA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_SMqO4PjxEea0x_0_65QrUA" type="3010" element="_SLlQ0PjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMqO4fjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMqO4vjxEea0x_0_65QrUA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_SMrdAPjxEea0x_0_65QrUA" type="3010" element="_SLme8PjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMrdAfjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMrdAvjxEea0x_0_65QrUA"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_B2yMofjxEea0x_0_65QrUA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_B2yMovjxEea0x_0_65QrUA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_B2wXcfjxEea0x_0_65QrUA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B2wXcvjxEea0x_0_65QrUA" x="365" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_B2yzsPjxEea0x_0_65QrUA" type="3009" element="_SLYcgPjxEea0x_0_65QrUA">
+              <children xmi:type="notation:Node" xmi:id="_B2zawPjxEea0x_0_65QrUA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_B20B0PjxEea0x_0_65QrUA" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_SMsrIPjxEea0x_0_65QrUA" type="3010" element="_SLntEPjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMsrIfjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMsrIvjxEea0x_0_65QrUA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_SMtSMPjxEea0x_0_65QrUA" type="3010" element="_SLpiQPjxEea0x_0_65QrUA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_SMtSMfjxEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_SMtSMvjxEea0x_0_65QrUA"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_B20B0fjxEea0x_0_65QrUA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_B20B0vjxEea0x_0_65QrUA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_B2yzsfjxEea0x_0_65QrUA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B2yzsvjxEea0x_0_65QrUA" x="559" y="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_5icX4fjwEea0x_0_65QrUA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_5icX4vjwEea0x_0_65QrUA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5iGZofjwEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5iGZovjwEea0x_0_65QrUA"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5ie0IPjwEea0x_0_65QrUA" type="2002" element="_5g44vfjwEea0x_0_65QrUA">
+          <children xmi:type="notation:Node" xmi:id="_5igCQPjwEea0x_0_65QrUA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_5igpUPjwEea0x_0_65QrUA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_5igpUfjwEea0x_0_65QrUA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_5igpUvjwEea0x_0_65QrUA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5ie0IfjwEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ie0IvjwEea0x_0_65QrUA" x="785"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5ihQYPjwEea0x_0_65QrUA" type="2002" element="_5g44v_jwEea0x_0_65QrUA">
+          <children xmi:type="notation:Node" xmi:id="_5ik6wPjwEea0x_0_65QrUA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_5ilh0PjwEea0x_0_65QrUA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_5ilh0fjwEea0x_0_65QrUA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_5ilh0vjwEea0x_0_65QrUA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5ihQYfjwEea0x_0_65QrUA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ihQYvjwEea0x_0_65QrUA" x="995"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_5h5lUvjwEea0x_0_65QrUA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_5g44s_jwEea0x_0_65QrUA" name="Group 3">
+      <target xmi:type="Group" href="My.testmodel#//@elements.1"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_5g44tPjwEea0x_0_65QrUA" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_SLKaEPjxEea0x_0_65QrUA" name="Class 1">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.0"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_di-U8PjzEea0x_0_65QrUA" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLbf0PjxEea0x_0_65QrUA" name="Attribute 1 : Class 1">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.0"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLcG4PjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLct8PjxEea0x_0_65QrUA" name="Attribute 2 : Test">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.1"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLdVAPjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLd8EPjxEea0x_0_65QrUA" name="Attribute 3 : ">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.2"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.0/@attributes.2"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLejIPjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_SLUyIPjxEea0x_0_65QrUA" name="Class 2">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.1"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_di_jEPjzEea0x_0_65QrUA" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLgYUPjxEea0x_0_65QrUA" name="SubAttrribute 1 : ">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.1/@attributes.0"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.1/@attributes.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLhmcPjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLiNgPjxEea0x_0_65QrUA" name="SubAttrribute 2 : ">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.1/@attributes.1"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.1/@attributes.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLjboPjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_SLWAQPjxEea0x_0_65QrUA" name="Class 3">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_djAKIPjzEea0x_0_65QrUA" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLkCsPjxEea0x_0_65QrUA" name="Attribute 31 : Class 3">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.0"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLkpwPjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLlQ0PjxEea0x_0_65QrUA" name="Attribute 32 : Test">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.1"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLl34PjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLme8PjxEea0x_0_65QrUA" name="Attribute 33 : ">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.2"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.0/@attributes.2"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLnGAPjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_SLYcgPjxEea0x_0_65QrUA" name="Class X">
+        <target xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <semanticElements xmi:type="Class" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_djAxMPjzEea0x_0_65QrUA" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLntEPjxEea0x_0_65QrUA" name="SubAttrribute 1121 : ">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1/@attributes.0"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1/@attributes.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLo7MPjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SLpiQPjxEea0x_0_65QrUA" name="SubAttrribute 1122 : ">
+          <target xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1/@attributes.1"/>
+          <semanticElements xmi:type="Attribute" href="My.testmodel#//@elements.1/@elements.2/@elements.0/@elements.1/@attributes.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_SLqJUPjxEea0x_0_65QrUA" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@subContainerMappings[name='ClassContainer']/@subNodeMappings[name='AttributInClassContainer']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_5g44vfjwEea0x_0_65QrUA" name="Group 2">
+      <target xmi:type="Group" href="My.testmodel#//@elements.2"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_5g44vvjwEea0x_0_65QrUA" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_5g44v_jwEea0x_0_65QrUA" name="Group X">
+      <target xmi:type="Group" href="My.testmodel#//@elements.3"/>
+      <semanticElements xmi:type="Group" href="My.testmodel#//@elements.3"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_5g44wPjwEea0x_0_65QrUA" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer/@containerMappings[name='GroupContainer']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_5g44wfjwEea0x_0_65QrUA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.testmodel.design/description/testmodel.odesign#//@ownedViewpoints[name='Testmodel']/@ownedRepresentations[name='Toplevel']/@defaultLayer"/>
+    <target xmi:type="Model" href="My.testmodel#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

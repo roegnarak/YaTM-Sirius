@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="org.testmodel.design.Activator"
+               id="org.testmodel.design"
+	       name="testmodel">
+    </component>
+  </extension>
+  <extension
+        point="org.eclipse.sirius.diagram.ui.styleConfigurationProvider">
+     <styleConfigurationProvider
+           providerClass="org.testmodel.design.StyleConfigurationProvider1">
+     </styleConfigurationProvider>
+  </extension>
+</plugin>
