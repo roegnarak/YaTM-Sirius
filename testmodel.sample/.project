@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>testmodel.sample</name>
+	<comment></comment>
+	<projects>
+		<project>org.testmodel</project>
+		<project>org.testmodel.design</project>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.sirius.nature.modelingproject</nature>
+	</natures>
+</projectDescription>
